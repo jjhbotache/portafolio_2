@@ -15,7 +15,7 @@ import CV from "./static/hoja de vida JUAN JOSÉ HUERTAS BOTACHE.pdf"
 
 
 
-import EducationCard from "./components/educationCard/educationCard";
+import EducationCard from "./components/EducationCard/EducationCard.jsx";
 
 function App() {
   // get a query paraemter called section
