@@ -2,7 +2,7 @@ import { useState } from "react";
 import Footer from "../../components/NavTabs/Footer/Footer";
 import NavTabs from "../../components/NavTabs/NavTabs";
 import { navLinks, skillsInfo } from "../../consts/consts";
-import styles from "./habilidades.module.css";
+import styles from "./Habilidades.module.css";
 import Button from 'react-bootstrap/Button';
 
 

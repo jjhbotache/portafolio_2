@@ -7,7 +7,7 @@ import { createBrowserRouter, RouterProvider, Link, Outlet} from "react-router-d
 import NavTabs from './components/NavTabs/NavTabs.jsx';
 import { navLinks } from './consts/consts.jsx';
 import Contacto from './pages/Contacto/Contacto.jsx';
-import Habilidades from './pages/habilidades/habilidades.jsx';
+import Habilidades from './pages/Habilidades/Habilidades.jsx';
 import logo from "./static/media/logo.png"
 
 const router = createBrowserRouter(
