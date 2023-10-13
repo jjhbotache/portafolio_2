@@ -1,0 +1,9 @@
+.chooserContainer{
+  background: var(--secondaryColor) !important;
+  max-height: 80vh !important;
+}
+.skillsChoosen{
+  transform: translateX(30px);
+  border: 1px solid var(--secondaryColor);
+}
+  

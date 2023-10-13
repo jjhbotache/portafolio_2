@@ -1,0 +1,6 @@
+.separator{
+    width: 100%;
+    max-width: 10px;
+    background: var(--tertiaryColor);
+    border: 1px solid var(--primaryColor);
+}

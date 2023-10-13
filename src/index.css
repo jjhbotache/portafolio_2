@@ -1,0 +1,52 @@
+:root{
+  --primaryColor:#FF9100;
+  --secondaryColor:#211300;
+  --tertiaryColor:#fff2bb;
+
+  --bs-primary:var(--primaryColor) !important;
+  --bs-secondary:var(--secondaryColor) !important;
+
+  --bs-link-color:var(--primaryColor) !important;
+  --bs-link-hover-color:var(--secondaryColor) !important;
+
+}
+
+.nav-tabs {
+  --bs-nav-tabs-link-active-color:var(--secondaryColor) !important;
+}
+.btn-primary {
+  --bs-btn-color: var(--secondaryColor) !important;
+  --bs-btn-bg: var(--primaryColor) !important; /* Utiliza el color primario definido anteriormente */
+  --bs-btn-border-color: var(--primaryColor) !important; /* Utiliza el color primario definido anteriormente */
+  --bs-btn-hover-color: var(--secondaryColor) !important;
+  --bs-btn-hover-bg: var(--tertiaryColor) !important;
+  --bs-btn-hover-border-color: var(--primaryColor) !important;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: var(--primaryColor);
+  --bs-btn-active-bg: var(--tertiaryColor) !important;
+  --bs-btn-active-border-color: var(--secondaryColor) !important;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--primaryColor) !important; /* Utiliza el color primario definido anteriormente */
+  --bs-btn-disabled-border-color: var(--primaryColor) !important; /* Utiliza el color primario definido anteriormente */
+}
+
+nav{
+  background-color: var(--tertiaryColor);
+}
+
+html,body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  min-height: 100vh;
+  color: var(--secondaryColor) !important;
+}
+
+.hoverable{transition: all 0.2s ease-in-out;}
+.hoverable:hover{transform: scale(1.1);}
+
+i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
