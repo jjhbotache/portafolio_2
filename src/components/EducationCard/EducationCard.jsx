@@ -1,4 +1,4 @@
-import styles from './educationCard.module.css';
+import styles from './EducationCard.module.css';
 export default function EducationCard({img, title, text, small}) {
   return(
     <div className={"card mb-3 " + styles.card} style={{maxWidth: "540px"}}>
